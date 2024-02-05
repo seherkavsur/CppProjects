@@ -13,4 +13,10 @@ int main(){
     funcref(value);
     std::cout << "the value of x after the funcref() is called:"<<value<< std::endl;
      
+    //l value expresion
+    int x = 100;
+    int &y = x;
+    std::cout << std::endl << "y  :" << y  << "  x: "<<x << std::endl;
+    
+    return 0;
 }
