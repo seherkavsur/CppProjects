@@ -98,6 +98,7 @@ int main(){
     }    
     std::cout << std::endl;
 
+    std::cout<<vec1.at(5)<<std::endl;
     
     return 0;
 }
