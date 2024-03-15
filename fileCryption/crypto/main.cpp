@@ -6,9 +6,8 @@
 #include <QJsonObject>
 #include <openssl/aes.h>
 #include <openssl/evp.h>
-#include <openssl/err.h>,
+#include <openssl/err.h>
 // 16 byte IV
-QByteArray iv = "0123456789012345";
 // 32 byte AES-256 KEY
 QByteArray key = "12345678901234567890123456789012";
 QString outputFilePath = "/home/seher/Desktop/encrypted.json";
